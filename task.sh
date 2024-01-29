@@ -9,11 +9,8 @@ then
 elif [ $sal -gt 20000 -a $sal -le 40000 ];
 then
 	echo "5% TAX"
-elif [ $sal -gt 40000 ];
-then
+else [ $sal -gt 40000 ];
 	echo "10% TAX"
-else [ $sal -eq 20000 ];
-	echo "2% TAX"
 fi
 
 
